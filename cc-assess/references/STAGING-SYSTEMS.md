@@ -1,52 +1,32 @@
-# Staging Systems Reference
+# Staging and Response: Terms to Clarify
 
-## TNM Staging (AJCC)
+Sources checked: **2026-10-15**. Record the treating team's assessment; do not calculate stage or treatment response from raw reports or measurements.
 
-**T (Primary Tumor)**: T0 (none) → Tis (in situ) → T1-T4 (increasing size/extent)
-**N (Lymph Nodes)**: N0 (none) → N1-N3 (increasing involvement)
-**M (Metastasis)**: M0 (none) → M1 (distant metastasis)
+## Stage, grade, and current status
 
-| Stage | General Description |
-|-------|-------------------|
-| I | Small tumor, no spread |
-| II | Larger tumor or limited spread |
-| III | Regional spread |
-| IV | Distant metastasis |
+**Stage** describes disease extent. **Grade** describes features of cancer cells under the microscope. The applicable staging system depends on the cancer; TNM is not universal. In TNM, T concerns the primary tumor, N regional lymph nodes, and M distant spread. Keep the original diagnosis stage separate from later recurrence/progression descriptions. [NCI: Cancer Staging](https://www.cancer.gov/about-cancer/diagnosis-staging/staging).
 
-Exact groupings vary by cancer type. Staging is critical for treatment, prognosis, and trial eligibility.
+```markdown
+Exact diagnosis and subtype, as documented:
+Stage and staging system/version, if provided:
+Clinical or pathological stage, if provided:
+Original diagnosis date and source:
+Grade, if relevant and documented:
+Current disease-status description / date / source:
+Unresolved questions to ask the team:
+```
 
-## RECIST 1.1
+Avoid assigning prognosis from a stage label alone. If documents appear inconsistent, ask which assessment the team is using and why.
 
-| Response | Criteria |
-|----------|---------|
-| Complete Response (CR) | All target lesions disappear, lymph nodes <10mm |
-| Partial Response (PR) | ≥30% decrease in sum of diameters |
-| Stable Disease (SD) | Neither PR nor PD |
-| Progressive Disease (PD) | ≥20% increase AND ≥5mm absolute increase, or new lesions |
+## Response is a separate assessment
 
-Rules: Up to 5 target lesions (max 2/organ). Measure longest diameter. Compare to baseline (response) or nadir (progression).
+RECIST, iRECIST, metabolic imaging criteria, and pathological response describe different kinds of assessment. They are not interchangeable and are not staging systems. Ask which, if any, applies to the person's care or trial.
 
-## iRECIST (Immune-Specific)
+Response definitions belong in the clinical or trial protocol; do not turn them into independent care instructions. See [Response Assessment Criteria](../../cc-monitor/references/RESPONSE-ASSESSMENT-CRITERIA.md).
 
-Same measurements but adds confirmation: iUPD (unconfirmed progression) must be confirmed 4-8 weeks later before declaring iCPD (confirmed). Accounts for pseudoprogression with immunotherapy.
+Questions to take to the visit:
 
-**Key rule**: Never abandon immunotherapy based on a single scan showing growth.
-
-## PERCIST (PET Response)
-
-| Response | SUV Change |
-|----------|-----------|
-| Complete Metabolic Response | No FDG uptake above background |
-| Partial Metabolic Response | ≥30% SUV decrease |
-| Stable Metabolic Disease | <30% change |
-| Progressive Metabolic Disease | ≥30% SUV increase or new lesions |
-
-## Choi Criteria
-For GIST/sarcoma. Considers both size AND density on CT. A tumor becoming more cystic (lower density) is responding even without size change.
-
-## Pathologic Response
-After neoadjuvant treatment + surgery:
-- **pCR**: No viable tumor cells (best outcome)
-- **MPR**: ≤10% viable tumor (very good)
-- **Partial**: 10-50% viable
-- **Minimal/None**: >50% viable
+1. What does this report establish, and what remains uncertain?
+2. Is the comparison using the appropriate earlier study and method?
+3. Does this finding change the care plan, or require clarification?
+4. Which symptoms should trigger immediate contact rather than waiting for the next scan?

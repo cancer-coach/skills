@@ -1,41 +1,30 @@
-# Cancer Type Playbooks
+# Cancer-Specific Appointment Prompts
 
-## Osteosarcoma (Sid Sijbrandij's Case)
-- **Incidence**: ~1,000 new US cases/year. Rare bone cancer.
-- **Key markers**: TP53, RB1 mutations common. Typically low TMB. Complex karyotypes.
-- **Standard care**: Surgery + MAP chemotherapy (methotrexate, doxorubicin, cisplatin). Limited second-line.
-- **Experimental frontiers**: Neoantigen mRNA vaccines, FAP-targeted radioligand (Lu-177), checkpoint inhibitor combinations, oncolytic viruses, CAR-T (GD2/HER2/B7-H3 targets).
-- **Sid's approach**: 25TB of diagnostic data, parallel immunotherapy + vaccines + radioligand, scRNA-seq showing T cell infiltrate 19%→89%, FAP-targeted Lu-177 enabling surgical resection.
-- **Monitoring**: Limited standard tumor markers. MRD emerging. Imaging is primary tool.
-- **Advocacy**: Request comprehensive molecular profiling. Push for immunotherapy combinations. Consider international radioligand therapy. Bank tissue aggressively.
-- **Data resource**: osteosarc.com
+Sources checked: **2026-10-15**. These prompts are not treatment playbooks. Confirm the documented diagnosis, subtype, age group, current setting, goals and local guidance before researching a cancer-specific question. Do not infer a diagnosis from symptoms or a family's story.
 
-## Breast Cancer
-- **Subtypes matter**: HR+/HER2- (luminal), HER2+, Triple-negative (TNBC). Treatment completely different by subtype.
-- **Key tests**: ER/PR/HER2 (IHC/FISH), Oncotype DX/MammaPrint (HR+), BRCA1/2, PD-L1 (TNBC).
-- **Standard care**: Surgery ± radiation, endocrine (HR+), anti-HER2 (HER2+), chemo ± immunotherapy (TNBC).
-- **Experimental**: ADCs (T-DXd), PI3K/AKT inhibitors, PARP (BRCA+), neoantigen vaccines.
-- **Monitoring**: CA 15-3 (limited), Signatera MRD increasingly validated.
-- **Advocacy**: Complete molecular subtyping. Genomic risk scores for HR+. BRCA testing for all.
+The relevant treatment options depend on the particular cancer and its extent. Use the current disease-specific resources linked from [NCI: Types of Cancer Treatment](https://www.cancer.gov/about-cancer/treatment/types), then discuss applicability with the oncology team.
 
-## Lung Cancer (NSCLC)
-- **Driver mutations revolutionized treatment**: EGFR, ALK, ROS1, KRAS G12C, BRAF V600E, MET, RET, NTRK.
-- **Key tests**: Comprehensive panel (NCCN recommends for all advanced NSCLC), PD-L1.
-- **Standard care**: Targeted therapy if driver mutation. Immunotherapy ± chemo if no driver.
-- **CRITICAL**: Never start immunotherapy before molecular profiling results are back.
-- **Monitoring**: CT imaging, ctDNA, PET for metabolic response.
+| Topic | Questions to prioritize with the team |
+|-------|----------------------------------------|
+| Bone or soft-tissue sarcoma | Is the exact pathological subtype confirmed? Would review by a sarcoma specialist help? How do local treatment and rehabilitation planning fit together? |
+| Breast cancer | Which subtype and treatment setting are documented? Which existing marker or risk-score results matter to this decision, and what questions remain? |
+| Lung cancer | Is the precise diagnosis confirmed? Which pathology and biomarker results does the team need, and is any care time-sensitive while results are pending? |
+| Colorectal cancer | What is the location, extent and treatment goal? Which existing pathology or biomarker findings influence this decision? Who coordinates follow-up? |
+| Pancreatic cancer | What does the team consider feasible and why? What symptom, nutrition, pain, and practical support can start now? |
+| Other cancers, including blood cancers | Which disease-specific staging, response framework and specialist expertise apply? Avoid borrowing a solid-tumor checklist. |
 
-## Colorectal Cancer
-- **MSI-H/dMMR is critical**: Universal immunotherapy biomarker.
-- **Key tests**: MSI/MMR, RAS/BRAF, HER2, ctDNA (Signatera well-validated for CRC).
-- **Standard care**: Surgery ± FOLFOX/FOLFIRI, anti-VEGF/anti-EGFR, immunotherapy for MSI-H.
-- **Monitoring**: CEA (well-validated), Signatera MRD detects recurrence months before imaging.
-- **Advocacy**: MSI testing mandatory. ctDNA monitoring essential. HER2 increasingly relevant.
+These are starting questions, not universal requirements for panels, imaging, MRD, inherited-risk testing or procedures. Ask which result would change a decision and what the trade-offs are.
 
-## Pancreatic Cancer
-- **Most lethal common cancer**: 5-year survival ~12%.
-- **Key tests**: BRCA1/2, PALB2, ATM, KRAS, MSI (rare but actionable).
-- **Standard care**: Surgery if resectable (15-20%), FOLFIRINOX or gem/nab-paclitaxel.
-- **Experimental**: Organoid testing particularly valuable here. KRAS G12D targeting. Personalized vaccines.
-- **Monitoring**: CA 19-9 (well-validated), CT imaging.
-- **Advocacy**: Organoid testing can identify unexpected drug sensitivities. BRCA/PALB2+ opens PARP inhibitor options. Clinical trials early.
+## Shared decision notes
+
+```markdown
+Decision under discussion / team-supplied deadline:
+What matters most to the patient now:
+Options described by the team, including supportive care:
+Expected benefits, harms, uncertainty and daily-life burden:
+Questions that could change the choice:
+Second opinion desired / how to arrange without unsafe delay:
+Agreed next step / owner:
+```
+
+Anecdotes, including unusual recoveries, can inspire useful questions but cannot establish the cause of an outcome or predict another person's benefit. Do not transfer a published patient's regimen, testing volume, or spending to someone else. Choosing fewer interventions or asking others to coordinate care is a valid expression of agency.

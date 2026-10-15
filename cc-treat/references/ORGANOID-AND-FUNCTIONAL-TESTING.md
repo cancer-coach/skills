@@ -1,48 +1,35 @@
-# Organoid and Functional Testing Guide
+# Organoids and Functional Testing: Questions First
 
-## What Are Organoids?
-3D cell cultures grown from your tumor tissue. They preserve your tumor's mutations, drug sensitivities, and growth patterns — a personalized lab model of your cancer.
+Sources checked: **2026-10-15**. Educational support only. Laboratory models and treatment hypotheses must not be presented as validated personalized treatment selection.
 
-## Development Process
-1. Fresh tumor tissue collected at surgery/biopsy (within hours)
-2. Tissue processed and embedded in specialized matrix
-3. Cultured with growth factors specific to tumor type
-4. Organoids grow over 2-8 weeks
-5. Multiple drugs tested simultaneously at various concentrations
-6. Results: ranked list of drugs by effectiveness against YOUR tumor
+Organoids, cell cultures and animal models are research approaches that examine aspects of tumor behavior outside the person. A model does not reproduce the person's full biology. A laboratory drug response does not prove clinical benefit, safety or an appropriate regimen.
 
-## How to Request
-1. **BEFORE** surgery/biopsy: tell your surgeon "I want fresh tissue preserved for organoid development"
-2. Tissue must be collected in appropriate media (NOT formalin)
-3. Coordinate with receiving lab for same-day processing
-4. Your oncologist can help identify partner labs
+## Before pursuing a test
 
-## Where to Access
-- Academic medical centers: Memorial Sloan Kettering, Dana-Farber, MD Anderson, others
-- Commercial: Champions Oncology, SEngine Precision Medicine, Tempus
-- Some clinical trials include organoid testing in their protocol
+- What exact question could this answer in my situation?
+- Is the service research, an established clinical use, or a commercial offering with uncertain clinical usefulness?
+- Is there prospective human evidence that using its result improves outcomes for this cancer and setting?
+- What happens if the model cannot be established or results are inconclusive?
+- What are the tissue requirements, turnaround estimate, costs and possible downstream burdens?
+- How will pathology preserve material needed for diagnosis and ongoing care?
+- Who reviews the result, and would it actually change the team's recommendation?
+- Could a trial address this question with appropriate oversight?
 
-## Patient-Derived Xenografts (PDX)
-Alternative: tumor implanted into immunodeficient mice. More physiologic but slower (months), more expensive, less available. Primarily research settings.
+Do not publish generic success rates, prices, center lists or timelines as recommendations. Confirm details with the clinical team and receiving laboratory. Do not delay indicated care, add an invasive procedure, divert diagnostic tissue, or change medicines on the basis of an AI suggestion or an in-vitro ranking.
 
-## Timeline
-- Organoid establishment: 2-8 weeks
-- Drug testing: 2-4 additional weeks
-- Total: 4-12 weeks from tissue to results
+## Proposal record
 
-## Success Rates
-~60-80% of tumors grow successfully as organoids (varies by type). Pancreatic, colorectal, and breast cancers tend to grow well. Some tumor types are more difficult.
+```markdown
+Clinical question:
+Laboratory/service or study / official source / date checked:
+Evidence for clinical usefulness in this exact setting:
+Tissue availability and pathology approval:
+Research consent, data access and sample-use terms:
+Costs and timing supplied by the provider:
+Limitations explained by team:
+Team's recommendation / unresolved questions:
+```
 
-## Limitations
-- Not all tumors grow successfully
-- Organoids lack immune cells and tumor microenvironment
-- In-vitro response doesn't guarantee in-vivo response
-- Takes weeks — may not be fast enough for urgent decisions
-- Cost: $5,000-$20,000+
+If offered through a study, assess the actual protocol and informed-consent discussion. Trial participation is a choice, not proof that the approach works. [NCI: Clinical Trial Facts](https://www.cancer.gov/research/participate/clinical-trials/facts) (updated 2025-01-03).
 
-## When Most Valuable
-- Multiple treatment options, unclear which is best
-- Rare cancer with limited published data
-- Previous treatments have all failed
-- Pancreatic cancer (particularly valuable given limited standard options)
-- When time allows (not for emergency decisions)
+Ask for privacy and sample-use terms before sharing tissue, identifiers or raw data. The assistant may draft questions, but must not contact a provider or transmit records without explicit permission.
