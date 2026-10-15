@@ -1,56 +1,42 @@
-# Expanded Access Guide
+# Expanded Access: A Clinician-Led Discussion
 
-## Pre-Application Checklist (All Pathways)
-- [ ] Diagnosis confirmed as serious or life-threatening
-- [ ] No comparable or satisfactory therapy available
-- [ ] No appropriate clinical trials available or accessible
-- [ ] Potential benefit justifies potential risks
-- [ ] Identified specific drug and manufacturer
-- [ ] Treating physician willing to serve as investigator
-- [ ] IRB access identified (institutional or central)
+Sources checked: **2026-10-15**. U.S. orientation; access rules differ elsewhere. This is educational support, not regulatory, legal, or treatment advice.
 
-## Individual Patient Expanded Access (Compassionate Use)
+Expanded access concerns investigational products outside trials when appropriate alternatives are unavailable and trial participation is not possible. Authorization is not proof that a product will work or be safe for that person. [FDA: Expanded Access](https://www.fda.gov/news-events/public-health-focus/expanded-access).
 
-### Step-by-Step
-1. **Identify the drug**: Match molecular profile to experimental drug
-2. **Contact the company**: Oncologist contacts manufacturer's medical affairs. Build strong case with molecular data.
-3. **Company agrees**: Hardest step — persistence and molecular rationale help
-4. **Submit FDA Form 3926**: 1-page form (simplified from old 26-page version)
-5. **FDA reviews**: Individual requests ~30 days. Emergency: 24 hours.
-6. **IRB review**: Can proceed concurrently with FDA
-7. **Drug shipped**: Company sends to treatment center
-8. **Treatment begins**: Under physician supervision
+## Questions to establish feasibility
 
-**Key fact**: FDA approves 99%+ of individual patient requests. The company, not the FDA, is usually the bottleneck.
+- What established options and appropriate trials have been considered?
+- Is the proposed product investigational for this use, and what human evidence exists?
+- Does the treating physician consider the potential benefit sufficient to justify the risks?
+- Will the manufacturer supply it, and can the treating institution support it?
+- What current FDA authorization, institutional review, informed consent, and safety reporting are required?
+- What costs, practical burdens, uncertainty, and alternatives should we discuss?
 
-## Emergency IND
-- For immediately life-threatening situations
-- Call FDA at (301) 796-1600 (24/7)
-- Verbal authorization to begin treatment immediately
-- Written submission follows within 15 working days
-- IRB notification within 5 working days
+The treating physician, manufacturer, institution/IRB and FDA have distinct roles. Use the FDA's current patient and physician resources linked above; do not supply a generic approval timeline, success rate, application form, or emergency contact from memory.
 
-## Right to Try Act (2018)
-- Drug must have completed Phase I
-- No FDA authorization needed — direct to company
-- Company has NO obligation to provide
-- Less commonly used than expanded access
-- No FDA safety oversight
+## Distinguish the pathways
 
-## Off-Label Prescribing
-- Physician prescribes approved drug for unapproved indication
-- Legal — physician's medical judgment
-- Insurance is the main challenge (prior auth, appeals)
-- Medicare may cover if in recognized compendium
+| Pathway | Question for the clinical/regulatory team |
+|---------|------------------------------------------|
+| Clinical trial | Is enrollment possible, and what does the study require? |
+| Expanded access | Is access outside a trial appropriate and feasible? |
+| Off-label use of an approved drug | What evidence supports this particular use and its risks? |
+| Right to Try or another jurisdiction's pathway | What current criteria, protections and responsibilities apply? |
+| Care abroad | How will quality, continuity, legal requirements, costs and emergency support be verified? |
 
-## International Access
-- Some treatments available abroad but not in US
-- Sid traveled to Germany for FAP-targeted radioligand therapy
-- Consider: cost, insurance, coordination, quality, travel logistics
+Do not portray any pathway as a workaround for safety review, a guaranteed entitlement, or a better treatment. Online testimonials and an access approval do not establish efficacy.
 
-## Tips for Success
-- FDA is NOT the bottleneck — focus on convincing the drug company
-- A letter from a prominent researcher supporting your case helps
-- Strong molecular rationale (genomic data matching the drug's target) is your best argument
-- Some companies have formal expanded access programs; others handle case-by-case
-- Have your oncologist lead the conversation with the company
+## Conversation record
+
+```markdown
+Question or product the patient wants to discuss:
+Published human evidence / uncertainties / date checked:
+Treating clinician's assessment:
+Trial feasibility and alternatives:
+Manufacturer/institution response, if already available:
+Responsibilities, costs and consent questions:
+Next step / owner / team-supplied timing:
+```
+
+An emergency access application is handled by clinicians; it is not emergency symptom care. New severe or rapidly worsening symptoms require immediate clinical or emergency assessment. Do not wait for research, company replies, or paperwork.

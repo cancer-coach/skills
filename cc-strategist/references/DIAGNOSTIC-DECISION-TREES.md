@@ -1,23 +1,37 @@
-# Diagnostic Decision Trees
+# Questions When Findings Are Unclear
 
-## When Genomic Results Are Unclear
-- VUS found → Check ClinVar, COSMIC, OncoKB for reclassification → Tumor board review → Bioinformatics second opinion → If VUS is in a druggable gene, discuss empiric treatment
-- No actionable mutations on panel → Consider WES/WGS → RNA-seq for fusion detection → Functional testing (organoids)
-- Conflicting results between platforms → Re-extract from same tissue → Fresh biopsy if possible → Molecular pathologist consultation
+Sources checked: **2026-10-15**. These are conversation routes, not diagnostic algorithms. Do not choose tests, diagnose progression, or recommend treatment from uncertainty.
 
-## When Imaging Is Ambiguous
-- Indeterminate lesion on CT → PET-CT for metabolic activity → MRI for soft tissue detail → Biopsy if accessible → Short-interval follow-up (6-8 weeks)
-- Post-treatment changes vs residual disease → PET-CT → MRD testing → Biopsy if accessible → Watchful waiting with close follow-up
-- New lesion during immunotherapy → Do NOT assume progression → Repeat imaging 6-8 weeks per iRECIST → Biopsy if clinically needed → MRD can help differentiate
+## A result is unclear or unexpected
 
-## When MRD and Imaging Conflict
-- MRD positive, imaging negative → Molecular disease likely present → Enhanced surveillance → Discuss preemptive treatment → Don't panic from single positive
-- MRD negative, imaging shows possible lesion → May be benign → Repeat imaging → Biopsy if persistent → MRD negative is reassuring but not definitive
-- Both positive → Likely true disease → Treatment discussion warranted → Escalate to /cc-treat and /cc-strategist
+1. Preserve the report's exact wording, specimen date, method and stated limitations.
+2. Ask the ordering clinician what it means in context and whether anything needs prompt action.
+3. Ask what uncertainty remains and whether clarification would change a decision.
+4. Record the team's next step, responsible person and expected communication date.
 
-## When to Escalate to Advanced Diagnostics
-- Standard profiling no targets + standard care failed → WES/WGS
-- Immunotherapy failing despite favorable biomarkers → scRNA-seq for immune infiltrate
-- Need to understand treatment resistance → Rebiopsy + comprehensive re-profiling
-- Considering personalized vaccine → WGS + HLA typing + RNA-seq
-- Multiple options unclear which is best → Organoid drug testing
+## Specific questions
+
+| Situation | Useful question |
+|-----------|-----------------|
+| VUS in a report | Who explains its uncertainty and any future reclassification? It must not be used as a treatment target. |
+| No matching target reported | Does this change care, and would another test have meaningful clinical value? Avoid automatic escalation to broader sequencing. |
+| Tests disagree | Could specimen timing, sampling, assay differences or limitations explain this? Who will reconcile them? |
+| Imaging is indeterminate | What possibilities does the team consider, and what clarification is appropriate? |
+| Biomarkers and imaging disagree | How do symptoms, examination, assay limitations and the full clinical picture affect interpretation? |
+| New findings during immunotherapy | How soon does the team need to assess this? Do not assume pseudoprogression or direct treatment continuation. |
+
+Uncertain variants do not establish a treatment indication. See [Genomic Report Guide](../../cc-assess/references/GENOMIC-INTERPRETATION-GUIDE.md) and [NCI: Biomarker Testing for Cancer Treatment](https://www.cancer.gov/about-cancer/treatment/types/biomarker-testing-cancer-treatment).
+
+## Close the loop
+
+```markdown
+Question / exact report wording:
+Ordering clinician / contact channel:
+Clinical team's explanation:
+What is known / what remains uncertain:
+Pending test or review / expected date from team:
+Who will contact whom if no answer arrives:
+What symptoms require contact sooner, per the team:
+```
+
+Never substitute a fixed repeat-test interval for contacting the team about a new concern. Urgent symptoms take priority over record completion, research and further AI questions.

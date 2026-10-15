@@ -1,45 +1,33 @@
-# Parallel Therapy Framework — Detailed Guide
+# Discussing Treatment Combinations and Sequencing
 
-## Organ-System Toxicity Matrix Template
+Sources checked: **2026-10-15**. The historical filename is retained for compatibility. This guide must not be used to design a regimen or determine whether a combination is safe.
 
-Rate each drug: None / Low / Medium / High
+Combinations may be established care, under investigation, or unsupported. Their place depends on the specific disease and setting. [NCI: Types of Cancer Treatment](https://www.cancer.gov/about-cancer/treatment/types).
 
-| Drug Name | Liver | Kidney | Heart | Lung | Marrow | Neuro | GI | Skin | Immune |
-|-----------|-------|--------|-------|------|--------|-------|-----|------|--------|
-| | | | | | | | | | |
+A list of different mechanisms or apparently non-overlapping organ toxicities does not establish safety, compatibility, efficacy or an appropriate schedule. Do not build toxicity scores, select combinations, recommend doses, create drug-hold rules, or propose a generic monitoring schedule. Ask an oncology pharmacist and the treating team to review the complete plan.
 
-## Safety Rules for Combination
-1. No two drugs with "High" toxicity to the same organ
-2. Maximum one "High" + one "Medium" to any single organ
-3. Typically 2-3 drugs in parallel (rarely more)
-4. All drugs must have known single-agent safety profiles
-5. Check pharmacokinetic interactions (CYP3A4 is common)
+## Questions for the clinical team
 
-## Mechanism Complementarity
-Ideal combinations attack through different pathways:
-- Direct tumor killing (chemo, targeted)
-- Immune activation (checkpoint, vaccine)
-- Microenvironment modification (oncolytic virus)
-- Vascular targeting (anti-angiogenic)
+- Is this exact combination and sequence recommended for this diagnosis and setting?
+- What human evidence supports benefits and harms compared with the alternatives?
+- Which components are approved for this use, off label, or investigational?
+- How could interactions, prior treatments, other medicines, supplements, or organ function affect risk?
+- Who is responsible for the entire plan if more than one institution is involved?
+- What is the team's written symptom action plan and after-hours contact?
+- What are the burdens, costs, trial implications and alternatives, including symptom-focused care?
 
-## Monitoring Protocol for Parallel Therapy
-- **Week 1-2**: Twice-weekly blood work (CBC, CMP, organ-specific)
-- **Week 3-4**: Weekly blood work
-- **Month 2+**: Per standard schedules for each drug
-- **Stopping rules**: Pre-defined for each drug (e.g., "If AST >5x ULN, hold Drug A")
-- **Response**: Early imaging or liquid biopsy at 4-6 weeks
+Parallel work can mean arranging records, a second opinion and supportive care while the oncology team plans treatment. It must not mean independently adding therapies or delaying necessary care.
 
-## When Appropriate
-- Standard sequential approaches have failed
-- Patient has ECOG 0-1 performance status
-- Clear molecular rationale for each drug
-- Non-overlapping toxicity profiles confirmed
-- Multidisciplinary team agrees
-- Close monitoring infrastructure available
+## Discussion worksheet
 
-## When NOT Appropriate
-- Standard care not adequately tried
-- Poor performance status (ECOG 3-4)
-- Organ function already compromised
-- No molecular rationale
-- No monitoring team in place
+```markdown
+Plan as described by the treating team / date:
+Clinical goal and patient priorities:
+Evidence and uncertainty questions:
+Medicines and supplements requiring pharmacist review:
+Team's assessment of interactions and responsibilities:
+Written monitoring and urgent-action instructions provided by team:
+Unanswered questions / owner / next contact:
+```
+
+AI may organize the discussion but must not convert a mechanistic hypothesis, anecdote or laboratory response into a treatment recommendation.

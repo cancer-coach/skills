@@ -1,220 +1,57 @@
-# cancer-coach
+# Cancer Coach
 
-A comprehensive cancer patient empowerment skills framework for AI coding assistants. Built for Claude Code, Cursor, Gemini CLI, Codex CLI, and any tool that supports the skills standard.
+Five educational skills for AI assistants: prepare questions, organize records, follow through on care tasks, and discuss priorities with a qualified cancer care team. These skills do not diagnose, choose treatments, interpret scans independently, change medicines, prescribe tests or monitoring schedules, or provide emergency care. AI can make mistakes; verify important summaries and details with the team.
 
-**Assess → Treat → Navigate → Monitor.** Four production-quality skills covering every phase of a patient's cancer journey, plus a master orchestrator to tie them together.
+Content updated **2026-10-15**. Source checks are an editorial review, not clinical validation or clinician review. The pack incorporates practical lessons from [JJ Maxwell's account](https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/) and [Hacker News](https://news.ycombinator.com/item?id=50093568), clearly separated from medical evidence. See the [evidence and source notes](cc-strategist/references/EVIDENCE-AND-SOURCE-NOTES.md).
 
----
+## Skills
 
-## Why This Exists
+| Skill | Useful for |
+| --- | --- |
+| [cc-strategist](cc-strategist/SKILL.md) | Start with a goal; prepare a short care agenda and route by need |
+| [cc-assess](cc-assess/SKILL.md) | Understand report terms and ask about testing, staging, tumor biomarkers and inherited risk |
+| [cc-treat](cc-treat/SKILL.md) | Prepare shared decision questions about clinician-provided options, evidence, benefits, harms and burden |
+| [cc-navigate](cc-navigate/SKILL.md) | Prepare second opinions, trial leads, referrals, cost questions and records requests |
+| [cc-monitor](cc-monitor/SKILL.md) | Record the team's follow-up plan, symptoms, missing results and verified visit summaries |
 
-Cancer patients who exhaust standard care options are often told nothing more can be done. But an emerging approach — pioneered by patients like Sid Sijbrandij — shows that combining maximum diagnostics, parallel treatments, AI-assisted decision-making, and aggressive regulatory navigation can produce outcomes that conventional medicine didn't predict.
+There is no mandatory sequence, comprehensive intake, universal testing ladder, treatment-combination formula or scan schedule. A one-page summary and one next step may be enough. Ask for support; outcomes are not a measure of personal effort.
 
-These skills give your AI assistant genuine patient advocacy expertise. Not surface-level health tips — detailed, evidence-informed frameworks for understanding your options, asking better questions, and navigating a complex system alongside your medical team.
+## Use and privacy
 
-**Important:** These skills do not provide medical advice. They provide frameworks for patient empowerment and education. Always work with qualified healthcare professionals.
+Start with a small request:
 
----
-
-## Skills Overview
-
-| Skill | Phase | What It Does |
-|-------|-------|-------------|
-| [`cc-assess`](skills/cc-assess/SKILL.md) | Assess | Maximum diagnostics philosophy, molecular profiling decision trees, interpreting genomic reports, staging systems |
-| [`cc-treat`](skills/cc-treat/SKILL.md) | Treat | Parallel therapy frameworks, treatment modality reference, toxicity overlap analysis, standard-of-care vs experimental decisions |
-| [`cc-navigate`](skills/cc-navigate/SKILL.md) | Navigate | Expanded access pathways, clinical trial search, team assembly, insurance navigation, tissue and data rights |
-| [`cc-monitor`](skills/cc-monitor/SKILL.md) | Monitor | MRD testing, imaging cadence, biomarker tracking, response assessment criteria, data organization |
-| [`cc-strategist`](skills/cc-strategist/SKILL.md) | All phases | Master orchestrator — founder-mode coaching, journey routing, cross-phase coordination, cancer-type playbooks |
-
-### The Patient Journey
-
-```
-ASSESS          TREAT           NAVIGATE        MONITOR
-────────        ────────        ────────        ────────
-Diagnostics     Therapy         Access &        Response
-Staging         Architecture    Regulatory      Assessment
-Molecular       Parallel        Team Build      MRD Testing
-Profiling       Planning        Trials          Adaptation
-                Personalized    Insurance       Data
-                Medicine        Rights          Organization
+```text
+Use cc-strategist. Help me prepare three questions for my next appointment.
+I want to discuss recovery and what the next steps mean for daily life.
 ```
 
-Each phase builds on the previous. Monitoring loops back to Assessment when signals warrant re-evaluation.
+`/cc-teach` is an optional context conversation interpreted by the AI host, not a command guaranteed in every product. Skip any question. General guidance needs no records upload. For someone else's information, obtain their permission or appropriate authority.
 
----
+Share only relevant redacted excerpts. Your AI provider's privacy, retention, training, memory and tool settings apply; do not assume medical confidentiality or HIPAA compliance. The skills instruct the assistant not to automatically persist context, upload records, contact third parties or transmit health information. Any such action needs a separate explicit request and review of destination/content. Removing names does not reliably anonymize genomic data.
 
-## Installation
+For severe symptoms, use local emergency services or the team's urgent action plan immediately. **During chemotherapy, 38°C / 100.4°F or higher requires immediate oncology contact and urgent assessment**, without waiting for persistence. If the team cannot be reached promptly, seek emergency care and explain chemotherapy and fever. Follow stricter/lower team thresholds. [CDC fever guidance](https://www.cdc.gov/cancer-preventing-infections/patients/fever.html), checked 2026-10-15. These skills do not monitor or respond to emergencies.
 
-### Via npx skills (recommended)
+## Install
+
+The published skills repository is [cancer-coach/skills](https://github.com/cancer-coach/skills):
 
 ```bash
 npx skills add cancer-coach/skills
 ```
 
-Auto-detects your AI harness and installs to the correct directory.
+This command uses a third-party installer; review its requirements and your host's instructions. It is shown for users and is not run by this project. Host compatibility and slash-command support vary. For manual installation, copy the five `cc-*` folders from this repository's root into the skill directory supported by your host. Preserve each folder's `references/`. Do not store health records in a source repository.
 
-### Manual installation
-
-Download and extract the skills directory to your project root:
-
-```
-your-project/
-├── .claude/skills/        # Claude Code
-│   └── cc-assess/
-│   └── cc-treat/
-│   └── cc-navigate/
-│   └── cc-monitor/
-│   └── cc-strategist/
-├── .cursor/skills/        # Cursor
-├── .gemini/skills/        # Gemini CLI
-├── .codex/skills/         # Codex CLI
-└── .agents/skills/        # VS Code Copilot / OpenClaw
-```
-
-### Update
+## Checks
 
 ```bash
-npx skills update
+python3 scripts/check-content.py
 ```
 
----
+This dependency-free check validates packaging and local links. It does not establish medical safety; safety changes also need independent scenario review. Do not commit personal health information, generated patient records, or evaluation data from real people.
 
-## Usage
+## Website and release coordination
 
-### Start with the orchestrator
-
-For a new diagnosis or when you're not sure where to start:
-
-```
-Use the cc-strategist skill. I was recently diagnosed with
-stage III osteosarcoma. Help me understand my options and
-build a plan for taking an active role in my treatment.
-```
-
-### Capture your context first (highly recommended)
-
-```
-Use the cc-strategist skill and run /cc-teach
-```
-
-This captures your diagnosis, stage, treatments tried, medical team, and goals so all skills give personalized guidance rather than generic frameworks.
-
-### Use phase skills directly
-
-```
-Use the cc-assess skill to help me understand what diagnostic
-tests I should be requesting beyond standard imaging. My oncologist
-ordered a CT scan but I want to know about genomic profiling options.
-
-Use the cc-treat skill to help me evaluate whether parallel
-treatment approaches might be appropriate for my situation.
-My cancer has recurred after standard chemotherapy.
-
-Use the cc-navigate skill to help me find clinical trials for
-recurrent osteosarcoma and understand the expanded access pathway
-for experimental immunotherapies.
-
-Use the cc-monitor skill to help me set up a monitoring protocol.
-I want to track MRD, imaging, and biomarkers systematically
-between treatment cycles.
-```
-
----
-
-## Philosophy
-
-These skills are built on four principles drawn from Sid Sijbrandij's approach to cancer:
-
-**1. Maximum diagnostics**
-
-Every piece of information about your cancer is potentially actionable. Don't settle for the minimum diagnostic workup when advanced molecular profiling, genomic sequencing, and liquid biopsies might reveal treatment targets or monitoring signals that standard tests miss.
-
-**2. Parallel over sequential**
-
-When standard care has failed and time is limited, testing multiple therapeutic hypotheses simultaneously — with non-overlapping toxicity profiles — can compress months of sequential trial-and-error into weeks of informed iteration.
-
-**3. Founder mode on your cancer**
-
-You are not a passive recipient of medical care. You are the architect of your treatment strategy. Your medical team provides expertise; you provide direction, coordination, and the determination to explore every option.
-
-**4. Radical data transparency**
-
-Your medical data belongs to you. Organizing it, understanding it, and sharing it with your full medical team — and potentially with the research community — creates better decisions and advances science for future patients.
-
----
-
-## What's Covered
-
-### cc-assess
-- Diagnostic ladder (standard → molecular → advanced)
-- Molecular profiling decision tree (panel vs. WES vs. WGS)
-- When to request RNA-seq, scRNA-seq, spatial transcriptomics
-- Liquid biopsy and MRD testing options
-- Interpreting genomic reports and actionable mutations
-- Staging systems (TNM, RECIST, iRECIST)
-- Information gap analysis framework
-- Questions to ask your oncologist about diagnostics
-
-### cc-treat
-- Treatment modality reference (chemo, immunotherapy, targeted, radiation, surgery, cell therapy, vaccines)
-- Parallel therapy framework and toxicity overlap matrix
-- Standard-of-care vs. experimental decision framework
-- Personalized medicine approaches (neoantigen vaccines, CAR-T, TCR-T, radioligand therapy)
-- Organoid and functional drug testing
-- Treatment evidence ladder
-- Treatment plan template for discussing with your team
-
-### cc-navigate
-- Expanded access pathways (compassionate use, Right to Try, single-patient IND)
-- Clinical trial navigation (ClinicalTrials.gov search strategy, eligibility, site selection)
-- Team assembly framework (who you need, when, how to evaluate)
-- Insurance navigation and appeals
-- Tissue access and medical data rights
-- Second opinion strategy
-- Questions to ask trial coordinators
-
-### cc-monitor
-- MRD testing framework and cadence
-- Imaging monitoring schedules by phase
-- Biomarker tracking and trend analysis
-- Response assessment criteria (RECIST 1.1, iRECIST, metabolic, pathologic)
-- Signal vs. noise framework (when to act, when to watch)
-- Adaptation trigger matrix
-- Personal health data organization
-- Data sharing and open science approach
-
-### cc-strategist
-- Patient journey lifecycle and routing
-- `/cc-teach` command: context capture interview
-- Journey mode selector (newly diagnosed / active treatment / monitoring / recurrence)
-- Cross-phase workflow guides
-- Cancer type playbooks
-- Founder mode checklist
-- Team assembly guidance
-- Common strategic mistakes
-
----
-
-## Website
-
-The repository includes a static landing page in [`site/`](site/).
-
-### Local preview
-
-```bash
-python3 -m http.server 4173 --directory site
-```
-
-Then open `http://localhost:4173`.
-
-### Cloudflare deployment
-
-```bash
-npx wrangler dev
-npx wrangler deploy
-```
-
----
+The [landing page](https://cancer.v1be.codes/) is maintained separately in the private `ckorhonen/cancer-coach` repository on `ckorhonen/cancer-coach-site`. It is not part of this skills-only package. The five root skill folders here mirror that branch's `skills/` directory; keep the copies synchronized when preparing releases. Publication needs the session's release authority and the applicable project checks.
 
 ## License
 

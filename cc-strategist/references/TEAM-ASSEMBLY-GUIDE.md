@@ -1,39 +1,43 @@
-# Team Assembly Guide
+# Building a Care and Support Team
 
-## Core Specialist Roles
+Sources checked: **2026-10-15**. A useful team fits the person's needs and resources; more specialists and institutions are not automatically better. The patient can delegate coordination and does not have to become a project manager.
 
-| Role | When Needed | How to Find | Red Flags |
-|------|-------------|-------------|-----------|
-| Medical Oncologist | Always (Day 1) | NCI-designated center, referral | Won't discuss trials or molecular profiling |
-| Surgical Oncologist | If surgery possible | Cancer-specific specialist, high-volume center | Low case volume for your cancer type |
-| Radiation Oncologist | If radiation indicated | Center with SBRT/proton capabilities | Only offers conventional radiation |
-| Geneticist / Genetic Counselor | Molecular profiling, hereditary risk | Academic medical center genetics dept | Doesn't order comprehensive panels |
-| Immunologist | Advanced immunotherapy, vaccines, cell therapy | Research institutions, biotech | Rare — usually at academic centers |
-| Pathologist | Diagnosis, reclassification | NCI center for expert review | Unwilling to send slides for second opinion |
-| Bioinformatician | WGS/WES/RNA-seq interpretation | Academic centers, specialized companies | — |
-| Patient Advocate / Navigator | Insurance, coordination, access | Cancer center social work, advocacy orgs | — |
-| Regulatory Specialist | Expanded access, trials | Oncologist's research team | — |
-| Palliative Care | Always (alongside curative) | Every major cancer center | — |
+## Start with roles and communication
 
-## The Cancer Quarterback
-Someone must coordinate across all specialists:
-1. Your medical oncologist (ideal if willing)
-2. A dedicated patient navigator
-3. You or a family member (most common reality)
+Ask who coordinates the plan, who handles urgent problems, and who follows up pending results. Depending on the situation, ask about specialist review, nursing support, an oncology pharmacist, a navigator/social worker, genetic counseling, rehabilitation, nutrition, mental health, and practical or financial support.
 
-## Coordinating Across Institutions
-- Keep a master contact sheet for all providers
-- Share all results proactively — don't assume institutions communicate
-- Use a shared cloud folder for your team
-- After each appointment, send summary to all relevant team members
-- YOU are the common thread connecting your care
+Palliative care can address symptoms, distress, caregiver needs and goals alongside cancer treatment. [NCI: Palliative Care in Cancer](https://www.cancer.gov/about-cancer/advanced-cancer/care-choices/palliative-care-fact-sheet).
 
-## NCI-Designated Comprehensive Cancer Centers
-71 centers across the US. Deepest expertise, most trials, broadest resources. Even if you can't get primary treatment there, get at minimum one consultation. Many offer virtual second opinions.
+## Second-opinion preparation
 
-## When to Change Doctors
-- Your oncologist is resistant to molecular profiling or trials
-- You're at a community center and your cancer is rare
-- You're being told "nothing more can be done" without exploring expanded access
-- Communication has broken down
-- You've lost confidence in the treatment approach
+1. Identify the decision or uncertainty to discuss and ask the current team how time-sensitive it is.
+2. Look for relevant expertise, access, cost and practical fit; do not require travel to a ranked institution or disparage community care.
+3. Confirm which reports, images and pathology material the receiving team needs and how to transfer them securely.
+4. Bring a short history and prioritized questions. Ask how recommendations will return to the treating team.
+5. If opinions differ, request an explanation of the evidence, uncertainty and trade-offs; the assistant must not choose a winner.
+
+[NCI: Finding Cancer Care](https://www.cancer.gov/about-cancer/managing-care/finding-cancer-care) explains finding specialists and seeking another opinion.
+
+## Recovery and daily-life questions
+
+- What help can I get with fatigue, pain, eating, sleep, mobility, speech or swallowing?
+- Are rehabilitation, physical/occupational therapy, nutrition or psychosocial referrals appropriate?
+- What activity, work, travel, wound-care or infection precautions should I confirm?
+- Should we discuss fertility, sexual health, cognitive changes or caregiver strain?
+- Who can help with transport, bills, time away from work, or care at home?
+
+Record advice from qualified clinicians; do not create exercise, nutrition, wound-care or medication instructions.
+
+## Contact and handoff template
+
+```markdown
+| Role | Contact through approved channel | Responsibility | Pending action / owner |
+|------|----------------------------------|----------------|------------------------|
+| | | | |
+Primary coordinator:
+Daytime and after-hours urgent contact, verified with team:
+Patient-approved caregiver involvement and limits:
+Who receives a verified visit summary:
+```
+
+Do not send a summary or records automatically. Confirm the patient's permission, recipient and secure channel first.

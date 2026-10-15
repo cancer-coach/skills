@@ -1,43 +1,30 @@
-# Genomic Interpretation Guide
+# Reading a Genomic Report with Your Team
 
-## Sections of a Typical Report
+Sources checked: **2026-10-15**. Explain vocabulary and prepare questions; do not diagnose, classify a person's variants, or select treatment from a report.
 
-1. **Patient and Sample Info**: Tumor type, sample type, purity, platform.
-2. **Genomic Findings**: Pathogenic, Likely Pathogenic, VUS, Benign variants.
-3. **TMB**: Mutations per megabase. TMB-H (≥10) associated with immunotherapy response.
-4. **MSI**: MSI-H/dMMR = universal immunotherapy biomarker. Pembrolizumab approved tumor-agnostically.
-5. **Therapy Associations**: FDA-approved, off-label, and trial matches for your mutations.
-6. **Clinical Trial Matches**: Potential trials based on profile.
+## Keep these distinctions visible
 
-## Key Terminology
+- **Somatic/tumor testing** examines changes in cancer cells. **Germline/inherited-risk testing** examines possible inherited susceptibility; a tumor test does not replace it. [NCI: Genetic Testing for Inherited Cancer Risk](https://www.cancer.gov/about-cancer/causes-prevention/genetics/genetic-testing-fact-sheet).
+- **Variant of uncertain significance (VUS)** means the evidence is unresolved. Do not use a VUS as a treatment target or as proof of inherited cancer risk. Ask who will communicate any future reclassification. [NCI: Biomarker Testing for Cancer Treatment](https://www.cancer.gov/about-cancer/treatment/types/biomarker-testing-cancer-treatment).
+- A report's “actionable” or trial-associated finding needs clinical review. Drug, disease, treatment setting, patient eligibility, assay, and jurisdiction matter; a target name alone is insufficient.
+- TMB, MSI/MMR, PD-L1, gene expression scores, and other markers have different assays and clinical uses. Do not transfer thresholds or interpretations between tests or cancer types.
 
-| Term | Meaning |
-|------|---------|
-| Actionable mutation | A mutation with a matching targeted therapy (approved or in trials) |
-| Driver mutation | Contributes to cancer growth (not all are actionable) |
-| Passenger mutation | Present but not driving growth |
-| VUS | Variant of Unknown Significance — impact uncertain, may be reclassified |
-| Pathogenic | Known to be cancer-driving |
-| Germline | Inherited, in all cells |
-| Somatic | Acquired by tumor only |
-| LOH | Loss of heterozygosity — loss of one gene copy |
-| Gene amplification | Extra gene copies (e.g., HER2, MET) |
-| Gene fusion | Two genes joined (e.g., ALK, NTRK, RET — often actionable) |
+## Report review worksheet
 
-## TMB Interpretation
-- TMB-High (≥10 mut/Mb): FDA-approved threshold for pembrolizumab
-- TMB-Intermediate (6-9): May still benefit from immunotherapy
-- TMB-Low (<6): Lower immunotherapy likelihood, not impossible
+```markdown
+Report date / specimen collection date:
+Laboratory and exact assay:
+Specimen type and site, as reported:
+Clinical question the test was ordered to answer:
+Finding copied accurately from the report:
+Laboratory's classification and stated limitations:
+Oncology team's interpretation, date and clinician:
+What remains uncertain:
+Does the team recommend separate germline assessment?
+Questions about approved use, trial evidence or off-label use:
+Agreed next action / owner:
+```
 
-## MSI Interpretation
-- MSI-H / dMMR: Checkpoint immunotherapy indicated regardless of cancer type
-- MSS / pMMR: Standard immunotherapy response expectations
+If reports disagree, preserve both versions and ask the pathologist or molecular tumor board to reconcile specimen timing, methods, and limitations. Do not choose the more hopeful result or infer a new diagnosis.
 
-## When to Seek Second Opinion on Genomics
-- VUS in a clinically important gene
-- Discrepancy between testing platforms
-- No actionable findings despite clinical expectation
-- Complex mutation patterns
-- Considering personalized therapies
-
-**Options**: NCI center molecular tumor board, Tempus peer-to-peer, N-of-One, academic bioinformatics consultation.
+Use redacted excerpts when possible. Genomic results can have family implications; ask about counseling, consent, storage, and access before sharing. Do not upload raw sequencing data to an external interpretation service without the person's explicit informed permission.

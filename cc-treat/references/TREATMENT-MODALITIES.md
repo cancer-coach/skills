@@ -1,25 +1,33 @@
-# Treatment Modalities — Expanded Reference
+# Treatment Types: A Conversation Reference
 
-| Modality | Key Examples | FDA Indications | Primary Organ Toxicity | Monitoring |
-|----------|-------------|----------------|----------------------|------------|
-| Alkylating chemo | Cyclophosphamide, cisplatin, carboplatin | Broad | Kidney (cisplatin), marrow | Renal function, CBC |
-| Antimetabolites | 5-FU, gemcitabine, capecitabine | Broad | GI, marrow | CBC, liver function |
-| Topoisomerase inhibitors | Irinotecan, topotecan, etoposide | Broad | Marrow, GI | CBC |
-| Taxanes | Paclitaxel, docetaxel, nab-paclitaxel | Broad | Marrow, neuropathy | CBC, neuro assessment |
-| Anthracyclines | Doxorubicin, epirubicin | Broad | Cardiac (cumulative), marrow | Echocardiogram, CBC |
-| Anti-PD-1 | Pembrolizumab, nivolumab | MSI-H, TMB-H, lung, melanoma, many | Immune (any organ) | Thyroid, liver, inflammatory |
-| Anti-PD-L1 | Atezolizumab, durvalumab | Lung, bladder, breast, liver | Immune | Same as PD-1 |
-| Anti-CTLA-4 | Ipilimumab | Melanoma, renal | GI (colitis), liver | Liver, GI symptoms, endocrine |
-| EGFR inhibitors | Osimertinib, erlotinib | EGFR+ lung | Skin, GI, lung (ILD) | Skin, pulmonary |
-| ALK inhibitors | Alectinib, lorlatinib | ALK+ lung | Liver, cardiac, neuro | Liver, ECG |
-| HER2-targeted | Trastuzumab, T-DXd, pertuzumab | HER2+ breast, gastric | Cardiac, lung (T-DXd ILD) | Echo, pulmonary |
-| PARP inhibitors | Olaparib, niraparib | BRCA+ breast, ovarian, pancreatic, prostate | Marrow, GI | CBC |
-| CDK4/6 inhibitors | Palbociclib, ribociclib | HR+ breast | Marrow, liver, QT | CBC, ECG, liver |
-| VEGF inhibitors | Bevacizumab, ramucirumab | CRC, lung, others | Hypertension, bleeding | BP, urine protein |
-| BRAF/MEK | Dabrafenib/trametinib | BRAF V600E melanoma, lung, CRC | Skin, cardiac, fever | Skin, echo, temp |
-| mRNA vaccines | Patient-specific | Experimental | Injection site, flu-like | Immune markers |
-| CAR-T | Axi-cel, tisa-cel, liso-cel | DLBCL, ALL, myeloma | CRS, ICANS, cytopenias | ICU monitoring, neuro |
-| Radioligand | Lu-177 DOTATATE, Lu-177 PSMA | NET, prostate | Marrow, kidney, GI | CBC, renal, liver |
-| Oncolytic virus | T-VEC | Melanoma | Flu-like, injection site | Temperature, flu symptoms |
-| SBRT | Focused radiation | Site-specific | Fatigue, local effects | Imaging follow-up |
-| Proton beam | Precise radiation | Site-specific | Fatigue, local effects | Imaging follow-up |
+Sources checked: **2026-10-15**. Use this vocabulary to understand a team's proposal, not to select treatment or predict an individual's benefit.
+
+| Type | Plain-language orientation |
+|------|----------------------------|
+| Surgery | Removes tissue through a procedure |
+| Radiation therapy | Uses radiation to treat a defined area or through an appropriate systemic approach |
+| Chemotherapy | Uses medicines that affect cancer-cell growth and can also affect healthy cells |
+| Endocrine therapy | Acts on hormone-related growth pathways in relevant cancers |
+| Targeted therapy | Acts on particular biological targets |
+| Immunotherapy | Uses or modifies immune responses; includes several different approaches |
+| Cell therapy / stem-cell transplant | Specialized approaches with different purposes and eligibility requirements |
+| Supportive and palliative care | Addresses symptoms, function, distress and quality of life |
+
+Treatment choices depend on cancer type, setting and individual circumstances. Start with [NCI: Types of Cancer Treatment](https://www.cancer.gov/about-cancer/treatment/types) for the appropriate current information.
+
+## Verify the particular proposal
+
+For a named drug, cell product, device, procedure or combination, ask the clinical team to verify current authorization and guidance for the exact disease, indication, biomarker/assay, age group, treatment line and jurisdiction. Approval of one product or indication does not validate a class or another use. Avoid undated product catalogs and blanket claims that a treatment class is “approved,” “experimental,” or “well tolerated.”
+
+```markdown
+Proposal as documented by clinician / date:
+Goal: cure, control, symptom relief or another stated goal:
+Relevant guideline or current product information:
+Approved use / off-label use / research status to clarify:
+Expected benefit and uncertainty discussed by team:
+Important harms and daily-life burden:
+Alternatives, including supportive care:
+Patient's priorities and questions:
+```
+
+For decision preparation, see [NCI: Questions to Ask about Cancer Treatment](https://www.cancer.gov/about-cancer/treatment/questions). Do not infer prognosis or choose a treatment from this reference.
